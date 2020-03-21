@@ -3,7 +3,6 @@ import os
 from openpyxl import load_workbook
 import xlsxwriter
 from shutil import copyfile
-
 file=input('File Path: ')
 extension = os.path.splitext(file)[1]
 filename = os.path.splitext(file)[0]
